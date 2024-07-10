@@ -1,0 +1,29 @@
+.table {
+    margin: 0 auto;
+    width: 500px;
+    border-collapse: collapse;
+
+    background-color: #ffffff;
+    text-align: center;
+
+  }
+  
+  .thead {
+    color: #ffffff;
+    background-color: #212121;
+    
+  }
+  
+  .th {
+    padding: 10px;
+    border: 1px solid#9e9e9e;
+    color: #ffffff;
+  }
+  
+  .tr:nth-child(even) {
+   
+      background-color: lightgray;
+    }
+  
+    
+     

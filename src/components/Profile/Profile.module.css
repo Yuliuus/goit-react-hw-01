@@ -1,0 +1,56 @@
+.parentContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: #f0f0f0;
+  padding-bottom: 0;
+  width: 200px;
+  justify-content: center;
+}
+
+.container div {
+  text-align: center;
+}
+
+.container img {
+  margin-top: 20px;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  background-color: #333;
+}
+.container p {
+  margin: 5px 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.containerStats {
+  margin-top: 10px;
+  border-radius: 20px;
+}
+
+.stats {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.statItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f0f0f0;
+  padding: 10px;
+  border-radius: 5px;
+}
